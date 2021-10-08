@@ -1,6 +1,9 @@
 import json
 
+# set time periods for scenario files
 timePeriods = ["00:00:00-12:00:00", "12:00:00-24:00:00"]
+# battery Size: 4800
+batterySize = 4800
 
 data = {
     "refreshingPeriodMsec": 5000,
@@ -11,10 +14,10 @@ data = {
 
     timePeriods[0]: {
         "batteryStatus": {
-            "3840-": "excess",
-            "2400-3840": "sufficient",
-            "1920-2400": "scarce",
-            "-1920": "short"
+            str(batterySize*0.8): "excess",
+            str(str(batterySize*0.5) + "-" + str(batterySize*0.8)): "sufficient",
+            str(str(batterySize*0.4) + "-" + str(batterySize*0.5)): "scarce",
+            str(batterySize*0.4): "short"
         },
         "request": {
             "excess": {"discharge": {
