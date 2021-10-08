@@ -21,31 +21,31 @@ data = {
         },
         "request": {
             "excess": {"discharge": {
-                "limitWh": 3840,
+                "limitWh": batterySize*0.8,
                 "pointPerWh": 10
             }},
             "sufficient": {},
             "scarce": {},
             "short": {"charge": {
-                "limitWh": 1920,
+                "limitWh": batterySize*0.4,
                 "pointPerWh": 10
             }}
         },
         "accept": {
             "excess": {"discharge": {
-                "limitWh": 2400,
+                "limitWh": batterySize*0.5,
                 "pointPerWh": 10
             }},
             "sufficient": {"discharge": {
-                "limitWh": 2400,
+                "limitWh": batterySize*0.5,
                 "pointPerWh": 10
             }},
             "scarce": {"charge": {
-                "limitWh": 2400,
+                "limitWh": batterySize*0.5,
                 "pointPerWh": 10
             }},
             "short": {"charge": {
-                "limitWh": 2400,
+                "limitWh": batterySize*0.5,
                 "pointPerWh": 10
             }}
         }
