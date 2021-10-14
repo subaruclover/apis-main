@@ -33,6 +33,7 @@ def run(interval, command):
 
 # set time periods for scenario files
 timePeriods = ["00:00:00-12:00:00", "12:00:00-24:00:00"]
+
 # per hour: TimePeriods[0],...,TimePeriods[23]
 TimePeriods = ["00:00:00-01:00:00", "01:00:00-02:00:00", "02:00:00-03:00:00",
                "03:00:00-04:00:00", "04:00:00-05:00:00", "05:00:00-06:00:00",
@@ -153,6 +154,6 @@ def createJson():
 # command = createJson()
 
 if __name__ == "__main__":
-    interval = 5
+    interval = 60 * 60 # every 60s
     command = createJson()
     run(interval, command)
