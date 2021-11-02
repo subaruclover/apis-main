@@ -20,7 +20,7 @@
 
 	"hwConfigFile" : "./hwConfig.json",
 	"policyFile" : "./policy.json",
-	"scenarioFile" : "./scenario.json",
+	"scenarioFile" : "./scenario4.json",
 	"stateFileFormat" : "{tmpdir}/apis/state4/%s",
 	"dealLogDirFormat" : "'{tmpdir}/apis/dealLog4/'uuuu'/'MM'/'dd",
 	"fileSystemExclusiveLockFileFormat" : "{tmpdir}/.apis.%s.lock",

@@ -1,1 +1,106 @@
-{"refreshingPeriodMsec": 5000, "acceptSelection": {"strategy": "pointAndAmount"}, "00:00:00-12:00:00": {"batteryStatus": {"3840-": "excess", "2400-3840": "sufficient", "1920-2400": "scarce", "-1920": "short"}, "request": {"excess": {"discharge": {"limitWh": 3840, "pointPerWh": 10}}, "sufficient": {}, "scarce": {}, "short": {"charge": {"limitWh": 1920, "pointPerWh": 10}}}, "accept": {"excess": {"discharge": {"limitWh": 2400, "pointPerWh": 10}}, "sufficient": {"discharge": {"limitWh": 2400, "pointPerWh": 10}}, "scarce": {"charge": {"limitWh": 2400, "pointPerWh": 10}}, "short": {"charge": {"limitWh": 2400, "pointPerWh": 10}}}}, "12:00:00-24:00:00": {"batteryStatus": {"3360-": "excess", "2400-3360": "sufficient", "1440-2400": "scarce", "-1440": "short"}, "request": {"excess": {"discharge": {"limitWh": 3360, "pointPerWh": 10}}, "sufficient": {}, "scarce": {}, "short": {"charge": {"limitWh": 1440, "pointPerWh": 10}}}, "accept": {"excess": {"discharge": {"limitWh": 2400, "pointPerWh": 10}}, "sufficient": {"discharge": {"limitWh": 2400, "pointPerWh": 10}}, "scarce": {"charge": {"limitWh": 2400, "pointPerWh": 10}}, "short": {"charge": {"limitWh": 2400, "pointPerWh": 10}}}}}
+{
+  "refreshingPeriodMsec": 5000,
+  "acceptSelection": {
+    "strategy": "pointAndAmount"
+  },
+  "00:00:00-12:00:00": {
+    "batteryStatus": {
+      "3840-": "excess",
+      "2400-3840": "sufficient",
+      "1920-2400": "scarce",
+      "-1920": "short"
+    },
+    "request": {
+      "excess": {
+        "discharge": {
+          "limitWh": 3840,
+          "pointPerWh": 10
+        }
+      },
+      "sufficient": {},
+      "scarce": {},
+      "short": {
+        "charge": {
+          "limitWh": 1920,
+          "pointPerWh": 10
+        }
+      }
+    },
+    "accept": {
+      "excess": {
+        "discharge": {
+          "limitWh": 2400,
+          "pointPerWh": 10
+        }
+      },
+      "sufficient": {
+        "discharge": {
+          "limitWh": 2400,
+          "pointPerWh": 10
+        }
+      },
+      "scarce": {
+        "charge": {
+          "limitWh": 2400,
+          "pointPerWh": 10
+        }
+      },
+      "short": {
+        "charge": {
+          "limitWh": 2400,
+          "pointPerWh": 10
+        }
+      }
+    }
+  },
+  "12:00:00-24:00:00": {
+    "batteryStatus": {
+      "3360-": "excess",
+      "2400-3360": "sufficient",
+      "1440-2400": "scarce",
+      "-1440": "short"
+    },
+    "request": {
+      "excess": {
+        "discharge": {
+          "limitWh": 3360,
+          "pointPerWh": 10
+        }
+      },
+      "sufficient": {},
+      "scarce": {},
+      "short": {
+        "charge": {
+          "limitWh": 1440,
+          "pointPerWh": 10
+        }
+      }
+    },
+    "accept": {
+      "excess": {
+        "discharge": {
+          "limitWh": 2400,
+          "pointPerWh": 10
+        }
+      },
+      "sufficient": {
+        "discharge": {
+          "limitWh": 2400,
+          "pointPerWh": 10
+        }
+      },
+      "scarce": {
+        "charge": {
+          "limitWh": 2400,
+          "pointPerWh": 10
+        }
+      },
+      "short": {
+        "charge": {
+          "limitWh": 2400,
+          "pointPerWh": 10
+        }
+      }
+    }
+  }
+}
