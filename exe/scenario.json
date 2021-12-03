@@ -4,7 +4,7 @@
     "acceptSelection": {
         "strategy": "pointAndAmount"
     },
-    "00:00:00-12:00:00": {
+    "00:00:00-24:00:00": {
         "batteryStatus": {
             "3840.0-": "excess",
             "2400.0-3840.0": "sufficient",
@@ -14,7 +14,7 @@
         "request": {
             "excess": {
                 "discharge": {
-                    "limitWh": 3840.0,
+                    "limitWh": 1920.0,
                     "pointPerWh": 10
                 }
             },
@@ -30,75 +30,25 @@
         "accept": {
             "excess": {
                 "discharge": {
-                    "limitWh": 2400.0,
+                    "limitWh": 1920.0,
                     "pointPerWh": 10
                 }
             },
             "sufficient": {
                 "discharge": {
-                    "limitWh": 2400.0,
+                    "limitWh": 1920.0,
                     "pointPerWh": 10
                 }
             },
             "scarce": {
                 "charge": {
-                    "limitWh": 2400.0,
+                    "limitWh": 1920.0,
                     "pointPerWh": 10
                 }
             },
             "short": {
                 "charge": {
-                    "limitWh": 2400.0,
-                    "pointPerWh": 10
-                }
-            }
-        }
-    },
-    "12:00:00-24:00:00": {
-        "batteryStatus": {
-            "3360.0-": "excess",
-            "2400.0-3360.0": "sufficient",
-            "1440.0-2400.0": "scarce",
-            "-1440.0": "short"
-        },
-        "request": {
-            "excess": {
-                "discharge": {
-                    "limitWh": 3360.0,
-                    "pointPerWh": 10
-                }
-            },
-            "sufficient": {},
-            "scarce": {},
-            "short": {
-                "charge": {
-                    "limitWh": 1440.0,
-                    "pointPerWh": 10
-                }
-            }
-        },
-        "accept": {
-            "excess": {
-                "discharge": {
-                    "limitWh": 2400.0,
-                    "pointPerWh": 10
-                }
-            },
-            "sufficient": {
-                "discharge": {
-                    "limitWh": 2400.0,
-                    "pointPerWh": 10
-                }
-            },
-            "scarce": {
-                "charge": {
-                    "limitWh": 2400.0,
-                    "pointPerWh": 10
-                }
-            },
-            "short": {
-                "charge": {
-                    "limitWh": 2400.0,
+                    "limitWh": 1920.0,
                     "pointPerWh": 10
                 }
             }
