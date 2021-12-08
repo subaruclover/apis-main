@@ -14,7 +14,7 @@
         "request": {
             "excess": {
                 "discharge": {
-                    "limitWh": 1920.0,
+                    "limitWh": 3360.0,
                     "pointPerWh": 10
                 }
             },
@@ -22,7 +22,7 @@
             "scarce": {},
             "short": {
                 "charge": {
-                    "limitWh": 1920.0,
+                    "limitWh": 3360.0,
                     "pointPerWh": 10
                 }
             }
