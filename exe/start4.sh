@@ -1,4 +1,4 @@
-echo 'call start.sh'
+echo 'call start4.sh'
 
 CLUSTER_XML=cluster.xml
 if [ "$(uname)" = 'Darwin' ] ; then
