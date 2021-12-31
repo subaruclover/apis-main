@@ -10,3 +10,4 @@ build
 *.log.lck
 *.err
 *.err.lck
+.idea
