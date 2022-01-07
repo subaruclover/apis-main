@@ -7,9 +7,9 @@
     "00:00:00-24:00:00": {
         "batteryStatus": {
             "3360.0-": "excess",
-            "2880.0-3360.0": "sufficient",
-            "960.0-2880.0": "scarce",
-            "-960.0": "short"
+            "2400.0-3360.0": "sufficient",
+            "1440.0-2400.0": "scarce",
+            "-1440.0": "short"
         },
         "request": {
             "excess": {
@@ -22,7 +22,7 @@
             "scarce": {},
             "short": {
                 "charge": {
-                    "limitWh": 960.0,
+                    "limitWh": 1440.0,
                     "pointPerWh": 10
                 }
             }
@@ -30,25 +30,25 @@
         "accept": {
             "excess": {
                 "discharge": {
-                    "limitWh": 2880.0,
+                    "limitWh": 2400.0,
                     "pointPerWh": 10
                 }
             },
             "sufficient": {
                 "discharge": {
-                    "limitWh": 2880.0,
+                    "limitWh": 2400.0,
                     "pointPerWh": 10
                 }
             },
             "scarce": {
                 "charge": {
-                    "limitWh": 2880.0,
+                    "limitWh": 2400.0,
                     "pointPerWh": 10
                 }
             },
             "short": {
                 "charge": {
-                    "limitWh": 2880.0,
+                    "limitWh": 2400.0,
                     "pointPerWh": 10
                 }
             }
