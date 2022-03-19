@@ -3,7 +3,7 @@
 
 	"refreshingPeriodMsec" : 5000,
 
-	"operationMode" : "stop",
+	"operationMode" : "autonomous",
 
 	"memberUnitIds" : ["E001","E002","E003","E004"],
 
